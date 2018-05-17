@@ -13,7 +13,7 @@
 
 Information about "Content Based Video Segmentation" project can be found in this page. A video is a sequence of images named frames. This project aims to divide a video into segments (shots) wherein the scene or camera position does not change significantly and our project considers both visual and semantic contents of the frames.
 
-## Installation Guide & User Manuel
+## Introduction
 
 * MATLAB 2016 should be installed.
 * Content Based Video Segmentation runs on desktop and all operating systems.
@@ -26,11 +26,15 @@ Information about "Content Based Video Segmentation" project can be found in thi
 
 <br> 
 
-* User clicks "Play Video" button to watch the video which is uploaded.
-* User clicks "Segment Video" button to segment the video into meaningful shots.
-* User can access information about video (duration in seconds, frame rate, etc.) via the hypertexts beside the video.
-* User can upload another video by clicking "Upload Video" button.
+*	User clicks "Play Video" button to watch the video which is uploaded.
+*	User clicks "Segment Video" button to segment the video into meaningful shots automatically.
+*	User clicks "Manuel Segment" button to segment the video into meaningful shots manually.
+*	User can access information about video (duration in seconds, frame rate, etc.) via the hypertexts beside the video.
+*	User can upload another video by clicking "Upload Video" button.
+
 
 <br>
 
-* User can view the meaningful shots of the video he/she uploaded previously.
+*	User can view the meaningful shots of the video he/she uploaded previously.
+*	User can compare the results and see the error rate between the manually segmented video and automatically segmented video.
+
